@@ -1,0 +1,115 @@
+﻿  stock00.cpp
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(8): error C2653: “Stock”: 不是类或命名空间名称
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(8): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(9): error C2039: “cout”: 不是“std”的成员
+  c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\predefined c++ types (compiler internal)(256): note: 参见“std”的声明
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(9): error C2065: “cout”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(10): error C2065: “company”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(11): error C2065: “shares”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(12): error C2065: “share_val”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(13): error C2065: “total_val”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(14): warning C4508: “Stock”: 函数应返回一个值；假定“void”返回类型
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(15): error C2510: “Stock”:“::”的左边必须是类/结构/联合
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(15): error C2039: “string”: 不是“std”的成员
+  c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\predefined c++ types (compiler internal)(256): note: 参见“std”的声明
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(15): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(15): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(16): error C2039: “cout”: 不是“std”的成员
+  c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\predefined c++ types (compiler internal)(256): note: 参见“std”的声明
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(16): error C2065: “cout”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(16): error C2065: “co”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(17): error C2065: “company”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(17): error C2065: “co”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(19): error C2065: “n”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(20): error C2039: “cout”: 不是“std”的成员
+  c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\predefined c++ types (compiler internal)(256): note: 参见“std”的声明
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(20): error C2065: “cout”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(21): error C2065: “company”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(22): error C2065: “shares”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(25): error C2065: “shares”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(25): error C2065: “n”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(26): error C2065: “share_val”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(26): error C2065: “pr”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(27): error C3861: “set_tot”: 找不到标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(28): warning C4508: “Stock”: 函数应返回一个值；假定“void”返回类型
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(29): error C2523: “::~Stock”: 析构函数 标记不匹配
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(29): error C2510: “Stock”:“::”的左边必须是类/结构/联合
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(30): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(30): error C2084: 函数“int Stock(void)”已有主体
+  c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(8): note: 参见“Stock”的前一个定义
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(31): error C2039: “cout”: 不是“std”的成员
+  c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\predefined c++ types (compiler internal)(256): note: 参见“std”的声明
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(31): error C2065: “cout”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(31): error C2065: “company”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(33): error C2510: “Stock”:“::”的左边必须是类/结构/联合
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(35): error C2039: “cout”: 不是“std”的成员
+  c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\predefined c++ types (compiler internal)(256): note: 参见“std”的声明
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(35): error C2065: “cout”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(40): error C2065: “shares”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(41): error C2065: “share_val”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(42): error C3861: “set_tot”: 找不到标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(45): error C2510: “Stock”:“::”的左边必须是类/结构/联合
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(46): error C2039: “cout”: 不是“std”的成员
+  c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\predefined c++ types (compiler internal)(256): note: 参见“std”的声明
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(46): error C2873: “cout”: 符号不能用在 using 声明中
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(50): error C2065: “cout”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(53): error C2065: “shares”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(55): error C2065: “cout”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(59): error C2065: “shares”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(60): error C2065: “share_val”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(61): error C3861: “set_tot”: 找不到标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(64): error C2510: “Stock”:“::”的左边必须是类/结构/联合
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(65): error C2065: “share_val”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(66): error C3861: “set_tot”: 找不到标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(68): error C2510: “Stock”:“::”的左边必须是类/结构/联合
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(69): error C2039: “cout”: 不是“std”的成员
+  c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\predefined c++ types (compiler internal)(256): note: 参见“std”的声明
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(69): error C2873: “cout”: 符号不能用在 using 声明中
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(70): error C2039: “ios_base”: 不是“std”的成员
+  c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\predefined c++ types (compiler internal)(256): note: 参见“std”的声明
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(70): error C2873: “ios_base”: 符号不能用在 using 声明中
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(73): error C2653: “ios_base”: 不是类或命名空间名称
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(73): error C2065: “fmtflags”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(73): error C2146: 语法错误: 缺少“;”(在标识符“orig”的前面)
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(73): error C2065: “orig”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(74): error C2065: “cout”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(74): error C2653: “ios_base”: 不是类或命名空间名称
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(74): error C2065: “fixed”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(74): error C2065: “floatfield”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(75): error C2039: “streamsize”: 不是“std”的成员
+  c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\predefined c++ types (compiler internal)(256): note: 参见“std”的声明
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(75): error C2065: “streamsize”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(75): error C2146: 语法错误: 缺少“;”(在标识符“prec”的前面)
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(75): error C2065: “prec”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(75): error C2065: “cout”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(77): error C2065: “cout”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(77): error C2065: “company”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(78): error C2065: “shares”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(79): error C2065: “cout”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(79): error C2065: “share_val”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(82): error C2065: “cout”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(83): error C2065: “cout”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(83): error C2065: “total_val”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(86): error C2065: “cout”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(86): error C2065: “orig”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(86): error C2653: “ios_base”: 不是类或命名空间名称
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(86): error C2065: “floatfield”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(87): error C2065: “cout”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\stock00.cpp(87): error C2065: “prec”: 未声明的标识符
+  useStock0.cpp
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\usestock0.cpp(12): error C2065: “Stock”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\usestock0.cpp(12): error C2146: 语法错误: 缺少“;”(在标识符“stock1”的前面)
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\usestock0.cpp(12): error C3861: “stock1”: 找不到标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\usestock0.cpp(13): error C2065: “stock1”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\usestock0.cpp(14): error C2065: “Stock”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\usestock0.cpp(14): error C2146: 语法错误: 缺少“;”(在标识符“stock2”的前面)
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\usestock0.cpp(14): error C3861: “stock2”: 找不到标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\usestock0.cpp(15): error C2065: “stock2”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\usestock0.cpp(18): error C2065: “stock2”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\usestock0.cpp(18): error C2065: “stock1”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\usestock0.cpp(20): error C2065: “stock1”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\usestock0.cpp(21): error C2065: “stock2”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\usestock0.cpp(24): error C2065: “stock1”: 未声明的标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\usestock0.cpp(24): error C3861: “Stock”: 找不到标识符
+c:\users\zhou&wan\desktop\c++\classlearning\classlearning\classlearning\usestock0.cpp(26): error C2065: “stock1”: 未声明的标识符
+  正在生成代码...
