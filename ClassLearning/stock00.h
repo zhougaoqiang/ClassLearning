@@ -4,8 +4,8 @@
 #ifndef STOCK00_H_
 #define STOCK00_H_
 
-#include <string>
 #include "pch.h"
+#include <string>
 
 class Stock //class declaration
 {
@@ -22,7 +22,8 @@ public:
 	void buy(long num, double price);
 	void sell(long num, double price);
 	void update(double price);
-	void show();
+	void show() const;
+	const Stock & topval(const Stock & s) const;
 };    //note semicolon at the end
 
 #endif

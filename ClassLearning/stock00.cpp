@@ -1,9 +1,9 @@
 //stock00.cpp -- implementing the stock class
 //version 00
 
-#include <iostream>
-#include "stock00.h"
 #include "pch.h"
+#include "stock00.h"
+#include <iostream>
 
 Stock::Stock() {
 	std::cout << "Default constructor called\n";
@@ -28,7 +28,7 @@ Stock::Stock(const std::string & co, long n, double pr) {
 }
 Stock::~Stock()  //verbose class destructor
 {
-	std::cout << "Bye, " << company << "!\n";
+	// std::cout << "Bye, " << company << "!\n";  //隐藏
 }
 void Stock::buy(long num, double price) {
 	if (num < 0) {
@@ -65,7 +65,7 @@ void Stock::update(double price) {
 	share_val = price;
 	set_tot();
 }
-void Stock::show() {
+void Stock::show() const {     //Stock::show() const <-保证Show不能改变调用对象的值。
 	using std::cout;
 	using std::ios_base;
 
@@ -87,3 +87,10 @@ void Stock::show() {
 	cout.precision(prec);
 }
 
+const Stock & Stock::topval(const Stock & s) const			// const Stock [返回Stock] &Stock ::topval
+{
+	if (s.total_val > total_val)
+		return s;		//argument object参数对象
+	else
+		return *this;   //invoking object调用对象
+}
