@@ -3,16 +3,19 @@
 #include "pch.h";
 #include "mytime0.h";
 #include "mytime1.h";
+#include "mytime3.h";
 #include <iostream>;
 
-using namespace std;
+using std::cout;
+using std::endl;
 
 void usetime0();
 void usetime1();
 void usetime2();
+void usetime3();
 
 int main() {
-
+	/*
 	usetime0();
 	cout << endl;
 	cout << endl;
@@ -30,6 +33,8 @@ int main() {
 	cout << endl;
 	cout << endl;
 	usetime2();
+	*/
+	usetime3();
 }
 
 void usetime0() {
@@ -152,4 +157,17 @@ void usetime2() {
 	cout << "adjusted working time = ";
 	adjusted.show();
 	cout << endl;
+}
+void usetime3() {
+	Time3 aida(3, 25); 
+	Time3 tosca(2, 48);
+	Time3 temp;
+
+	cout << "Aida and Tosca: \n";
+	cout << aida << "; " << tosca << endl;
+	temp = aida + tosca; //operator+()
+	cout << "Aida + Tosca: " << temp << endl;
+	temp = aida * 1.17; //member operator *()
+	cout << "Aida * 1.17: " << temp << endl;
+	cout << "10.0 * Tosca: " << 10.0*tosca << endl;
 }
