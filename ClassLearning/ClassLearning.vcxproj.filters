@@ -24,6 +24,12 @@
     <ClInclude Include="stack.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="mytime0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mytime1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -39,6 +45,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="stacker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myTime0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="starter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myTime1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

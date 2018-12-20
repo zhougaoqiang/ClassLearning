@@ -4,6 +4,8 @@
 #include <cctype>
 #include <iostream>
 
+
+/*
 int main()
 {
 	using namespace std;
@@ -47,3 +49,4 @@ int main()
 	cout << "Bye\n";
 	return 0;
 }
+*/
