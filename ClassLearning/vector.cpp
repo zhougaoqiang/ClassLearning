@@ -1,7 +1,7 @@
 //vect.cpp -- methods for the vector class
 
 #include "pch.h"
-#include "vector.h"
+#include "vect.h"
 #include <cmath>
 
 using std::sqrt;

@@ -157,6 +157,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="stack.h" />
     <ClInclude Include="stock00.h" />
+    <ClInclude Include="stonewh.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="myTime0.cpp" />
@@ -172,9 +173,10 @@
     <ClCompile Include="stacker.cpp" />
     <ClCompile Include="starter.cpp" />
     <ClCompile Include="stock00.cpp" />
+    <ClCompile Include="stonewt.cpp" />
     <ClCompile Include="useStock0.cpp" />
     <ClCompile Include="vector.cpp" />
-    <ClCompile Include="vector.h" />
+    <ClCompile Include="vect.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

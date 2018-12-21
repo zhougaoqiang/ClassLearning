@@ -4,7 +4,11 @@
 #include "mytime0.h";
 #include "mytime1.h";
 #include "mytime3.h";
+#include "vect.h";
+#include "stonewh.h";
 #include <iostream>;
+#include <ctime>;
+#include <cstdlib>;
 
 using std::cout;
 using std::endl;
@@ -13,6 +17,10 @@ void usetime0();
 void usetime1();
 void usetime2();
 void usetime3();
+void randwalk();
+
+void stone();
+void display(const Stonewt &st, int n);
 
 int main() {
 	/*
@@ -34,7 +42,9 @@ int main() {
 	cout << endl;
 	usetime2();
 	*/
-	usetime3();
+	//usetime3();
+	//randwalk();
+	stone();
 }
 
 void usetime0() {
@@ -170,4 +180,76 @@ void usetime3() {
 	temp = aida * 1.17; //member operator *()
 	cout << "Aida * 1.17: " << temp << endl;
 	cout << "10.0 * Tosca: " << 10.0*tosca << endl;
+}
+void randwalk() {
+	using VECTOR::Vector;
+	srand(time(0));  //seed random-number generator;
+
+	double direction;
+	Vector step;
+	Vector result(0.0, 0.0);
+	unsigned long steps = 0;
+	double target;
+	double dstep;
+	cout << "Enter target distance (q to quit): ";
+	while (std::cin >> target)
+	{
+		cout << "Enter step length: ";
+		if (!(std::cin >> dstep))
+			break;
+
+		while (result.magval() < target)
+		{
+			direction = rand() % 360;
+			step.reset(dstep, direction, Vector::POL);
+			result = result + step;
+			steps++;
+		}
+		cout << "After " << steps << " steps, the subject "
+			<< "has the following location: \n";
+		cout << result << endl;
+		result.polar_mode();
+		cout << " or\n" << result << endl;
+		cout << "Average outward distance per step = "
+			<< result.magval() / steps << endl;
+		steps = 0;
+		result.reset(0.0, 0.0);
+		cout << "Enter target distance (q to quit): ";
+	}
+
+	cout << "Bye!\n";
+	std::cin.clear();
+	while (std::cin.get() != '\n')
+		continue;
+}
+void stone() {
+	Stonewt incognito = 275;  //use constructor to initialize
+	Stonewt wolfe(285.7);  //same as Stonewt wolfe = 285.7
+	Stonewt taft(21, 8);
+
+	cout << "The celebrity weighed ";
+	incognito.show_stn();
+	cout << "The detective weighed ";
+	wolfe.show_stn();
+	cout << "The President weighed ";
+	taft.show_lbs();
+	
+	incognito = 276.8; //uses constructor for onversion
+	taft = 325; //same as taft = Stonewt(325)
+	cout << "After dinner, the celebrity weighed ";
+	incognito.show_stn();
+	cout << "After dinner, the President weighed ";
+	taft.show_lbs();
+
+	display(taft, 2);
+	cout << "The wrestler weighed even more. \n";
+	display(422, 2);
+	cout << "No Stone left unearned\n";
+}
+void display(const Stonewt &st, int n) {
+	for (int i = 0; i < n; i++)
+	{
+		cout << "Wow!";
+		st.show_stn();
+	}
 }
