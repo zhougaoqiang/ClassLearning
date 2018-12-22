@@ -91,6 +91,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -158,6 +159,7 @@
     <ClInclude Include="stack.h" />
     <ClInclude Include="stock00.h" />
     <ClInclude Include="stonewh.h" />
+    <ClInclude Include="string1.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="myTime0.cpp" />
@@ -174,6 +176,7 @@
     <ClCompile Include="starter.cpp" />
     <ClCompile Include="stock00.cpp" />
     <ClCompile Include="stonewt.cpp" />
+    <ClCompile Include="string1.cpp" />
     <ClCompile Include="useStock0.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="vect.h" />
