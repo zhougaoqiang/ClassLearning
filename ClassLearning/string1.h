@@ -41,4 +41,6 @@ public:
 	static int HowMany();
 };
 
+
+
 #endif // !STRING1_H_

@@ -156,6 +156,8 @@
     <ClInclude Include="mytime1.h" />
     <ClInclude Include="mytime3.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="placenew1.h" />
+    <ClInclude Include="queue.h" />
     <ClInclude Include="stack.h" />
     <ClInclude Include="stock00.h" />
     <ClInclude Include="stonewh.h" />
@@ -171,6 +173,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="queue.cpp" />
     <ClCompile Include="stack.cpp" />
     <ClCompile Include="stacker.cpp" />
     <ClCompile Include="starter.cpp" />

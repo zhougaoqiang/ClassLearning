@@ -1,19 +1,23 @@
 //start to open all test functions
 
 #include "pch.h"
-#include "mytime0.h";
-#include "mytime1.h";
-#include "mytime3.h";
-#include "vect.h";
-#include "stonewh.h";
+#include "mytime0.h"
+#include "mytime1.h"
+#include "mytime3.h"
+#include "vect.h"
+#include "stonewh.h"
 #include "string1.h"
-#include <iostream>;
-#include <ctime>;
-#include <cstdlib>;
+#include "placenew1.h"
+#include "queue.h"
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+#include <ctime>
 
 using std::cout;
 using std::cin;
 using std::endl;
+using std::ios_base;
 
 void usetime0();
 void usetime1();
@@ -25,6 +29,9 @@ void stone();
 void display(const Stonewt &st, int n);
 
 void sayings1();
+
+void bank();
+bool newcustomer(double x); //is there a new customer?
 
 int main() {
 	/*
@@ -49,7 +56,18 @@ int main() {
 	//usetime3();
 	//randwalk();
 	//stone();
-	sayings1();
+	//sayings1();
+	//placenew1();
+	cout << endl;
+	cout << endl;
+	cout << endl;
+	cout << endl;
+	cout << endl;
+	cout << endl;
+	cout << endl;
+	cout << endl;
+	//placenew2();
+	bank();
 }
 
 void usetime0() {
@@ -309,4 +327,85 @@ void sayings1() {
 	}
 	else
 		cout << "No input! Bye.\n";
+}
+
+void bank() {
+	const int MIN_PER_HR = 60;
+
+	//setting things up
+	std::srand(std::time(0));  //random initializing of rand()
+
+	cout << "Case Study: Bank of Heather Automatic Teller\n";
+	cout << "Enter maximum size of queue: ";
+	int qs;
+	cin >> qs;
+	Queue line(qs);    //line queue holds up to qs people
+
+	cout << "Enter the number of simulation hours: ";
+	int hours;
+	cin >> hours;
+	//simulation will run 1 cycle per mimute
+	long cyclelimit = MIN_PER_HR * hours; //# of cycles
+
+	cout << "Enter the average number of customers per hours: ";
+	double perhour;   //average # of arrival per hour
+	cin >> perhour;
+	double min_per_cust; //average time between arrivals
+	min_per_cust = MIN_PER_HR / perhour;
+
+	Item temp;   //new customer data
+	long turnaways = 0; //turned away by full queue
+	long customers = 0; //joined the queue
+	long served = 0;	//served during the simulation
+	long sum_line = 0;  //cumulative line length
+	int wait_time = 0;  //time until autoteller is free
+	long line_wait = 0;   //cumulative time in line
+
+	//running the simulation
+	for (int cycle = 0; cycle < cyclelimit; cycle++)
+	{
+		if (newcustomer(min_per_cust))  //have newcustomer
+		{
+			if (line.isfull())
+				turnaways++;
+			else
+			{
+				customers++;
+				temp.set(cycle); //attend next customer
+				line.enqueue(temp); //add newcomer to line
+			}
+		}
+		if (wait_time <= 0 && !line.isempty())
+		{
+			line.dequeue(temp);   //attend next customer
+			wait_time = temp.ptime();   //for wait_time minutes
+			line_wait += cycle - temp.when();
+			served++;
+		}
+		if (wait_time > 0)
+			wait_time--;
+		sum_line += line.queuecount();
+	}
+
+	//reporting results
+	if (customers > 0)
+	{
+		cout << "customers accepted: " << customers << endl;
+		cout << "  customers served: " << served << endl;
+		cout << "      turnaways: " << turnaways << endl;
+		cout << "average queue size: ";
+		cout.precision(2);
+		cout.setf(ios_base::fixed, ios_base::floatfield);
+		cout << (double)line_wait / served << "minutes\n";
+	}
+	else
+		cout << "No customers! \n";
+	cout << "Done!\n";
+}
+
+//x = average time , in minutes, between customers
+//return value is true if customer shows up this minutes
+bool newcustomer(double x)
+{
+	return (std::rand() *x / RAND_MAX < 1);
 }
