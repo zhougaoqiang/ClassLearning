@@ -152,6 +152,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="acctabc.h" />
+    <ClInclude Include="brass.h" />
     <ClInclude Include="mytime0.h" />
     <ClInclude Include="mytime1.h" />
     <ClInclude Include="mytime3.h" />
@@ -162,8 +164,11 @@
     <ClInclude Include="stock00.h" />
     <ClInclude Include="stonewh.h" />
     <ClInclude Include="string1.h" />
+    <ClInclude Include="tabtenn1.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="acctABC.cpp" />
+    <ClCompile Include="brass.cpp" />
     <ClCompile Include="myTime0.cpp" />
     <ClCompile Include="myTime1.cpp" />
     <ClCompile Include="myTime3.cpp" />
@@ -180,6 +185,7 @@
     <ClCompile Include="stock00.cpp" />
     <ClCompile Include="stonewt.cpp" />
     <ClCompile Include="string1.cpp" />
+    <ClCompile Include="tabtenn1.cpp" />
     <ClCompile Include="useStock0.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="vect.h" />

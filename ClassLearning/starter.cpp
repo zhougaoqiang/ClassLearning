@@ -9,6 +9,9 @@
 #include "string1.h"
 #include "placenew1.h"
 #include "queue.h"
+#include "tabtenn1.h"
+#include "brass.h"
+#include "acctabc.h"
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
@@ -67,7 +70,12 @@ int main() {
 	cout << endl;
 	cout << endl;
 	//placenew2();
-	bank();
+	//bank();
+
+	//usett1();
+	//usebrass1();
+	//usebrass2();
+	usebrass3();
 }
 
 void usetime0() {
