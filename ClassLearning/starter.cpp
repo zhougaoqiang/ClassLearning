@@ -12,6 +12,9 @@
 #include "tabtenn1.h"
 #include "brass.h"
 #include "acctabc.h"
+#include "dma.h"
+#include "studentc.h"
+#include "studenti.h"
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
@@ -61,21 +64,16 @@ int main() {
 	//stone();
 	//sayings1();
 	//placenew1();
-	cout << endl;
-	cout << endl;
-	cout << endl;
-	cout << endl;
-	cout << endl;
-	cout << endl;
-	cout << endl;
-	cout << endl;
 	//placenew2();
 	//bank();
 
 	//usett1();
 	//usebrass1();
 	//usebrass2();
-	usebrass3();
+	//usebrass3();
+	//usedma();
+	//use_stuc();
+	use_stui();
 }
 
 void usetime0() {
