@@ -153,6 +153,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="acctabc.h" />
+    <ClInclude Include="arraytp.h" />
     <ClInclude Include="brass.h" />
     <ClInclude Include="dma.h" />
     <ClInclude Include="mytime0.h" />
@@ -200,6 +201,7 @@
     <ClCompile Include="vect.h" />
     <ClCompile Include="worker0.cpp" />
     <ClCompile Include="workermi.cpp" />
+    <ClCompile Include="stacktp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
