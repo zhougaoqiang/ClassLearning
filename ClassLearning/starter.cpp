@@ -39,8 +39,9 @@ void sayings1();
 void bank();
 bool newcustomer(double x); //is there a new customer?
 
+
+/*
 int main() {
-	/*
 	usetime0();
 	cout << endl;
 	cout << endl;
@@ -58,7 +59,6 @@ int main() {
 	cout << endl;
 	cout << endl;
 	usetime2();
-	*/
 	//usetime3();
 	//randwalk();
 	//stone();
@@ -75,6 +75,7 @@ int main() {
 	//use_stuc();
 	use_stui();
 }
+*/
 
 void usetime0() {
 
