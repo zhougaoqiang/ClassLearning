@@ -169,6 +169,7 @@
     <ClInclude Include="studenti.h" />
     <ClInclude Include="tabtenn1.h" />
     <ClInclude Include="Worker0.h" />
+    <ClInclude Include="workermi.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="acctABC.cpp" />
@@ -198,6 +199,7 @@
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="vect.h" />
     <ClCompile Include="worker0.cpp" />
+    <ClCompile Include="workermi.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
