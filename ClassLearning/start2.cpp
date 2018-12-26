@@ -3,6 +3,7 @@
 #include "workermi.h"
 #include "stacktp.h"
 #include "arraytp.h"
+#include "tv.h"
 #include <iostream>
 void stacktem();
 void twod();    //making a 2-D array
@@ -13,9 +14,9 @@ int main()
 	//worktest();
 	//workmi();
 	//stacktem();
-	twod();
+	//twod();
+	use_tv();
 }
-
 
 void stacktem() {
 	Stack<std::string>st; //create an empty stack

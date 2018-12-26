@@ -72,6 +72,9 @@
     <ClInclude Include="arraytp.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="tv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -145,6 +148,9 @@
     </ClCompile>
     <ClCompile Include="stacktp.h">
       <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tv.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

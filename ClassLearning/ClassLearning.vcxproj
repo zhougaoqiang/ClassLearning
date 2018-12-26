@@ -169,6 +169,7 @@
     <ClInclude Include="studentc.h" />
     <ClInclude Include="studenti.h" />
     <ClInclude Include="tabtenn1.h" />
+    <ClInclude Include="tv.h" />
     <ClInclude Include="Worker0.h" />
     <ClInclude Include="workermi.h" />
   </ItemGroup>
@@ -196,6 +197,7 @@
     <ClCompile Include="studentc.cpp" />
     <ClCompile Include="studenti.cpp" />
     <ClCompile Include="tabtenn1.cpp" />
+    <ClCompile Include="tv.cpp" />
     <ClCompile Include="useStock0.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="vect.h" />
