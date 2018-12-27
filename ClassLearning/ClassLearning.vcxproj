@@ -156,6 +156,8 @@
     <ClInclude Include="arraytp.h" />
     <ClInclude Include="brass.h" />
     <ClInclude Include="dma.h" />
+    <ClInclude Include="error5.h" />
+    <ClInclude Include="exc_mean.h" />
     <ClInclude Include="mytime0.h" />
     <ClInclude Include="mytime1.h" />
     <ClInclude Include="mytime3.h" />
@@ -178,6 +180,7 @@
     <ClCompile Include="acctABC.cpp" />
     <ClCompile Include="brass.cpp" />
     <ClCompile Include="dma.cpp" />
+    <ClCompile Include="error4.cpp" />
     <ClCompile Include="myTime0.cpp" />
     <ClCompile Include="myTime1.cpp" />
     <ClCompile Include="myTime3.cpp" />

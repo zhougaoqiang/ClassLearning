@@ -5,6 +5,7 @@
 #include "arraytp.h"
 #include "tv.h"
 #include "queuetp.h"
+#include "exc_mean.h"
 #include <iostream>
 #include <string>
 #include <cfloat>
@@ -13,10 +14,10 @@ void twod();    //making a 2-D array
 void nested();
 
 void error2();
-bool hmean(double a, double b, double *ans);
+bool hmean1(double a, double b, double *ans);
 
 void error3();
-double hmean(double a, double b);
+double hmean2(double a, double b);
 
 int main()
 {
@@ -27,7 +28,9 @@ int main()
 	//use_tv();
 	//nested();
 	//error2();
-	error3();
+	//error3();
+	//error4();
+	//error5();
 }
 
 void stacktem() {
@@ -143,7 +146,7 @@ void error2() {
 	std::cout << "Enter two numbers: ";
 	while (std::cin >> x >> y)
 	{
-		if (hmean(x, y, &z))
+		if (hmean1(x, y, &z))
 			std::cout << "Harmonic mean of " << x << " and " << y  //Harmonic mean 调和平均数
 			<< " is " << z << std::endl;
 		else
@@ -152,7 +155,7 @@ void error2() {
 		std::cout << "Enter next set of numbers <q to quit>: ";
 	}
 }
-bool hmean(double a, double b, double *ans) {
+bool hmean1(double a, double b, double *ans) {
 	if (a == -b)
 	{
 		*ans = DBL_MAX;   //DBL_MAX 属于"cfloat", 是指 最大值
@@ -173,7 +176,7 @@ void error3() {
 	{
 		try                 //start of try block
 		{
-			z = hmean(x, y);
+			z = hmean2(x, y);
 		}                   //end of try block
 		catch (const char * s)   //start of exception handler
 		{
@@ -189,7 +192,7 @@ void error3() {
 
 	std::cout << "Bye\n";
 }
-double hmean(double a, double b) {
+double hmean2(double a, double b) {
 	if (a == -b)
 		throw "bad hmean() arguments: a = -b not allowed";
 	return 2.0*a*b /(a + b);

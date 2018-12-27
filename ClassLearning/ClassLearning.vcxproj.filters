@@ -78,6 +78,12 @@
     <ClInclude Include="queuetp.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="exc_mean.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="error5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -153,6 +159,9 @@
       <Filter>头文件</Filter>
     </ClCompile>
     <ClCompile Include="tv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="error4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
