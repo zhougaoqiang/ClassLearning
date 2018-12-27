@@ -162,6 +162,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="placenew1.h" />
     <ClInclude Include="queue.h" />
+    <ClInclude Include="queuetp.h" />
     <ClInclude Include="stack.h" />
     <ClInclude Include="stock00.h" />
     <ClInclude Include="stonewh.h" />
